@@ -1,0 +1,1323 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{margin: 0px; padding: 0px;}
+
+body{
+    width: 1200px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    box-shadow: 0px -2px 10px #d4d1d1;
+}
+
+
+
+header.Header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Continer {
+    width: 1200px;
+    margin: auto;
+    
+    padding-left: 20px;
+}
+
+.HeaderWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+ul.HeaderList {
+    width: 500px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+ul.HeaderList li {
+    list-style: none;
+    padding: 0px 17px;
+    border-right: 2px solid #99999985;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.HeaderImage {
+}
+
+ul.HeaderList li a {
+    text-decoration: none;
+    color: #999;
+    transition: .3s;
+}
+
+ul.HeaderList li:hover a {
+    color: #ff5200;
+}
+
+
+
+
+.FirstSectionWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+ul.Section1List {
+    display: flex;
+    overflow: hidden;
+    width: 450px;
+    padding: 6px 10px;
+}
+
+ul.Section1List li {
+    list-style: none;
+    margin-left: 21px;
+}
+
+section.FirstSection {
+    width: 100%;
+    background: #ffa41b;
+}
+
+ul.Section1List li a {
+    text-decoration: none;
+    color: white;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    padding: 5px;
+    border-radius: 100%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+ul.Section1List li:hover a {
+    background: white;border-radius: 100%;
+    color: #000;
+
+}
+
+.InfoPArt{
+    background: url(Image/back1.webp);
+    padding: 50px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.InfoWrapper {
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: 1.5px;
+}
+
+.smallIcon {
+    margin-bottom: 10px;
+}
+
+.InfoWrapper h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.InfoWrapper h1 span {
+    color: #ff5200;
+}
+
+.InfoWrapper h6 {
+    font-size: 15px;
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.InfoWrapper button {
+    width: 140px;
+    padding: 14px;
+    background: #ffa41b;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+    margin-bottom: 30px;
+}
+
+.InfoWrapper button a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.LargeImg {
+    width: 60%;
+    margin: auto;
+}
+
+.LargeImg img {
+    width: 100%;
+}
+
+.InfoWrapper button:hover {
+    background: #777;
+    color: #ffa41b;
+}
+
+
+
+
+
+
+
+
+section.Download {
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.DownWrapper {
+    width: 70%;
+    margin: auto;
+    padding: 21px 0PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -5px 44px 28px -50px grey;
+    background: rgb(251 251 251);
+}
+.DownlodInfo {
+    display: flex;
+    width: 301px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.D_ICon {
+    width: 20px;
+    font-size: 50px;
+    margin-right: 28px;
+    margin-left: 20px;
+}
+
+.D_ICon i {
+    color: #f95303;
+}
+
+.DownMeta {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.DownMeta h2 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.DownMeta h2 span {
+    color: #f95303;
+    margin-right: 6px;
+}
+
+.DownMeta p {
+    font-size: 15px;
+    margin-top: 0px;
+    color: #666;
+}
+
+.D-bitton {
+    width: 151px;
+    overflow: hidden;
+}
+
+.D-bitton button {
+    width: 130px;
+    padding: 15px;
+    border: 2px solid #999;
+    background: no-repeat;
+}
+
+.D-bitton button a {
+    color: #ff5200;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+section.Features {
+    width: 100%;
+    overflow: hidden;
+    padding: 70px 0px;
+}
+
+.Feature-Wrapper {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+}
+
+.Feature-Wrapper h1 {
+    font-weight: 400;
+    color: #555;
+}
+
+
+.Bar {
+    font-size: 35px;
+    color: #666;
+    margin-top: -20px;
+}
+
+.F-CardBox {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.SingleCard {
+    border: 1px solid #99999980;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    margin-right: 30px;
+}
+
+.SingleCard a {
+    width: 70px;
+    height: 70px;
+    background: #ff5200;
+    display: inline-grid;
+    border-radius: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.SingleCard a i {
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+}
+
+.SingleCard h2 {
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.SingleCard p {
+    font-size: 15px;
+    width: 100%;
+    margin: auto;
+    font-weight: 300;
+    margin-top: 15px;
+    letter-spacing: 1.2px;
+    margin-bottom: 21px;
+}
+#Color1{
+    background: #ff6969;
+}
+#Color2{
+    background: #bee289;
+}
+#Color3{
+    background: #75cff4;
+}
+
+.FeatureInfo {
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+
+.FeatureInfo button {
+    margin-top: 30px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: #f9a203;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.FeatureInfo button a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.FeatureInfo button:hover {
+    background: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+section.ProductQuality {
+    width: 100%;
+    background: #f6f6f6d9;
+    overflow: hidden;
+    padding: 70px 0px;
+}
+.QualityWrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Q-Image {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.Q-Image img {
+    width: 100%;
+}
+
+.Quality-Info {
+    width: 30%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.Quality-Info h2 {
+    color: #555;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.Quality-Info p {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #828282;
+}
+
+ul.Q-List {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+ul.Q-List li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+ul.Q-List li a {
+    color: #777;
+}
+
+
+.Quality-Info button {
+    width: 131px;
+    transition: .3s;
+    padding: 13px;
+    background: #f9a203;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.Quality-Info button a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Quality-Info button:hover {
+    background: #777;
+}
+
+ul.Q-List li a {
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    transition: .3s;
+    width: 100%;
+}
+
+ul.Q-List li a i {
+    margin-right: 5px;
+    color: #85c53ec4;
+}
+
+ul.Q-List li a:hover {
+    color: #ff5200;
+}
+
+
+
+
+
+
+
+
+
+
+.SectionHeader {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.BarBox {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -123px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.BarBox p {
+    width: 90%;
+    border-bottom: 1px solid #999;
+    margin-top: 9px;
+}
+
+.BarBox span {
+    color: #ff5200;
+    font-size: 100px;
+}
+
+.SectionHeader h2 {
+    color: #666666d4;
+    font-size: 30px;
+    padding-left: 21px;
+}
+
+.SectionHeader h2 span {
+    color: #444;
+}
+
+.SectionHeader h2 b {
+    color: #444;
+    font-weight: 800;
+}
+
+.SectionHeader p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ff5200;
+    padding-right: 20px;
+}
+
+.OptionBox {
+    width: 55%;
+    margin: auto;
+    display: flex;
+}
+
+.OptionWrapper {
+    width: 45%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.SingleOption {
+    width: 100%;
+    margin-bottom: 25px;
+    overflow: hidden;
+    display: flex;
+}
+
+.Option.Icon {
+    margin-right: 20px;
+}
+
+.OptionInfo {
+    width: 250px;
+    color: #555;
+    margin-top: 6px;
+}
+
+.OptionInfo p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #6f6f6f;
+    line-height: 1.5;
+}
+
+.OptionInfo h3 {
+    color: #333;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+section.MailBuild {
+    width: 100%;
+    background: #ffff;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.MailBox {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.PictureWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 9px 0px #f6f6f65e;
+}
+
+.MailBox h2 {
+    color: #555;
+    font-weight: 400;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.MailBox p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.PictureBox {
+    width: 45%;
+}
+
+.PictureBox img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.PictureBox h3 {
+    color: #4e4d4d;
+    font-size: 21px;
+    margin-bottom: 9px;
+}
+
+.PictureBox button {
+    width: 120px;
+    padding: 12px;
+    transition: .3s;
+    font-size: 15px;
+    background: #ffa41b;
+    border: none;
+    border-radius: 5px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.PictureBox button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+
+.PictureBox button:hover {
+    background: #777;
+}
+
+.PictureBox p {
+    margin-bottom: 40px;
+    color: #999999ba;
+}
+
+
+
+
+section.MailBuild-01 {
+    width: 100%;
+    background: #ffff;
+    padding: 100px 0px;
+    overflow: hidden;
+    background: #f6f6f6;
+}
+
+.MailBox-01 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.PictureWrapper-01 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 9px 0px #f6f6f65e;
+}
+
+.MailBox-01 h2 {
+    color: #555;
+    font-weight: 400;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.MailBox-01 p {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.PictureBox-01 {
+    width: 30%;
+    border: 1px solid #00000008;
+}
+
+.PictureBox-01 img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.PictureBox-01 h3 {
+    color: #4e4d4d;
+    font-size: 21px;
+    margin-bottom: 9px;
+    padding-left: 5px;
+}
+
+.PictureBox-01 button {
+    width: 120px;
+    padding: 12px;
+    transition: .3s;
+    font-size: 15px;
+    background: #ffa41b;
+    border: none;
+    margin-left: 6px;
+    border-radius: 5px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.PictureBox-01 button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+
+.PictureBox-01 button:hover {
+    background: #777;
+}
+
+.PictureBox-01 p {
+    margin-bottom: 40px;
+    color: #999999ba;
+    padding-left: 5px;
+}
+
+
+
+
+.PRiceCardWrapper-03 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.SinglePriceCard-03 h3 {
+    text-align: left;
+    margin-left: 15px;
+    padding: 18px 0px;
+    font-size: 18px;
+}
+
+.SinglePriceCard-03 {
+    width: 30%;
+    margin-right: 20px;
+    overflow: hidden;
+    border: 1px solid #99999969;
+    background: #ffffff9e;
+    border-radius: 10px;
+    border-bottom: 3px solid #999999ad;
+}
+
+.SinglePriceCard-03 img {
+    width: 100%;
+}
+
+.SinglePriceCard-03 h3 i {
+    color: #7fc37b;
+    margin-right: 7px;
+}
+
+.SinglePriceCard-03 p {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #99999954;
+}
+
+.SinglePriceCard-03 h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffa41b;
+    margin-top: -20px;
+    font-family: arial;
+}
+
+.SinglePriceCard-03 h6 {
+    margin-top: -30px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.SinglePriceCard-03 button {
+    width: 120px;
+    padding: 11px;
+    border: none;
+    background: #f9a203;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.SinglePriceCard-03 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.SinglePriceCard-03 button:hover {
+    background: #777;
+}
+
+
+
+
+
+section.Introducing {
+    width: 100%;
+    overflow: hidden;
+    padding: 80px 0px;
+}
+
+.Intro-Box {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Intro-Box img {
+    width: 100%;
+}
+
+.Intro-Box h2 {
+    font-weight: 400;
+    color: #505050fa;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.Intro-Box span {
+    color: #ff9900;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 11px;
+    display: block;
+}
+
+.Intro-Box p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+section.MailBuild-02 {
+    width: 100%;
+    background: #ffff;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+.PRiceCardWrapper-01 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.SinglePriceCard h3 {
+    text-align: left;
+    margin-left: 15px;
+    padding: 18px 0px;
+    font-size: 18px;
+}
+
+.SinglePriceCard {
+    width: 45%;
+    margin-right: 20px;
+    overflow: hidden;
+    border: 1px solid #99999969;
+    background: #ffffff9e;
+    border-radius: 10px;
+    border-bottom: 3px solid #999999ad;
+}
+
+.SinglePriceCard img {
+    width: 100%;
+}
+
+.SinglePriceCard h3 i {
+    color: #7fc37b;
+    margin-right: 7px;
+}
+
+.SinglePriceCard p {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #99999954;
+}
+
+.SinglePriceCard h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffa41b;
+    margin-top: -20px;
+    font-family: arial;
+}
+
+.SinglePriceCard h6 {
+    margin-top: -30px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.SinglePriceCard button {
+    width: 120px;
+    padding: 11px;
+    border: none;
+    background: #f9a203;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.SinglePriceCard button a {
+    color: white;
+    text-decoration: none;
+}
+
+.SinglePriceCard button:hover {
+    background: #777;
+}
+
+
+
+.MailBox-03 {
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.PRiceCardWrapper-03 {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.MailBox-03 h2 {
+    color: #555;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.MailBox-03 p {
+    color: #999;
+    font-weight: 300;
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+section.MailBuild-02 {
+    width: 100%;
+    background: #ffff;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+.PRiceCardWrapper-01 {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.SinglePriceCard-03 h3 {
+    text-align: left;
+    margin-left: 20px;
+    padding: 18px 0px;
+    font-size: 18px;
+    display: block;
+}
+
+.SinglePriceCard-03 {
+    width: 45%;
+    overflow: hidden;
+    border: 1px solid #99999969;
+    text-align: center;
+    background: #ffffff9e;
+    border-radius: 10px;
+    border-bottom: 3px solid #999999ad;
+}
+
+.SinglePriceCard-03 img {
+    width: 100%;
+}
+
+.SinglePriceCard-03 h3 i {
+    color: #7fc37b;
+    margin-right: 7px;
+}
+
+.SinglePriceCard-03 p {
+    color: #6b6a6a;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 3px;
+}
+
+.SinglePriceCard-03 h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffa41b;
+    margin-top: 25px;
+    font-family: arial;
+}
+
+.SinglePriceCard-03 h6 {
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.SinglePriceCard-03 button {
+    width: 120px;
+    padding: 11px;
+    border: none;
+    background: #f9a203;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.SinglePriceCard-03 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.SinglePriceCard-03 button:hover {
+    background: #777;
+}
+
+
+
+
+section.MoreInformation {
+    width: 100%;
+    background: #f6f6f6;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.InformatinWrapper {
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.Single_information {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.Single_information img {
+    margin-right: 25px;
+}
+
+.Info-Meta {
+    width: 70%;
+    overflow: hidden;
+}
+
+.Info-Meta b {
+    color: #adadad;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.Info-Meta h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.Info-Meta p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.Info-Meta a {
+    color: #f9a203;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.Single_information:first-child {
+    margin-top: 0px;
+}
+
+.Info-Meta a:hover {
+    color: cornflowerblue;
+}
+
+
+
+
+
+
+
+.TryDemoPart{
+    width: 100%;
+    background: url(Image/back1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    
+}
+
+.DemoWrapper {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    opacity: 100%;
+}
+
+.DemoWrapper h1 {
+    font-size: 27px;
+    margin-bottom: 25px;
+    color: #222;
+    font-weight: 500;
+    font-family: arial;
+}
+
+.DemoWrapper h1 b {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.DemoWrapper h1 span {
+    color: #f98b03;
+}
+
+.DemoWrapper p {
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.DemoWrapper a {
+    display: inline-block;
+    width: 120px;
+    padding: 15px;
+    background: #f9a203;
+    transition: .3s;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.DemoWrapper a:hover {
+    color: white;
+    background: #777;
+}
+
+
+
+
+
+
+section.AboutPart {
+    width: 100%;
+    padding: 70px 0px;
+    overflow: hidden;
+}
+
+.AboutWrapper {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.SingleBoxWrpper {
+    width: 45%;
+    color: #777;
+    overflow: hidden;
+}
+
+.SingleBoxWrpper h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    color: #333;
+}
+
+ul.Contact-Info {
+    width: 100%;
+    overflow: hidden;
+}
+
+ul.Contact-Info li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    list-style: none;
+}
+
+ul.Contact-Info li span {
+    color: #f9a203;
+}
+
+.SingleBoxWrpper p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+footer.Footter {
+    width: 100%;
+    background: #f9a203;
+    padding: 25px 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.FooterWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.FooterWrapper a {
+    margin-right: 100px;
+    display: inline-block;
+    width: 120px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: .7px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.FooterWrapper a:hover {
+    background: #777;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.FooterWrapper p {
+    margin-left: 80px;
+}
